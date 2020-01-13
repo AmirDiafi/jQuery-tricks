@@ -1,0 +1,129 @@
+.extend{
+    background: #333;
+    color :#FFF;
+    text-align: center;
+    height: 100px;
+    width: 300px;
+    margin-bottom: 10px
+}
+
+.extend.second{ 
+    height: 200px;
+}
+
+.centering-me{
+    background: rgb(248, 170, 170);
+    color: #333;
+    width: 400px;
+    height: 350px;
+    text-align: center;
+}
+
+h2{
+    text-align: center;
+    margin-top: 100px
+}
+
+.countdown{
+    width: 30%;
+    height: 50px;
+    background: #009;
+    margin: 0 auto 100px;
+    color: #FFF;
+    text-align: center;
+    line-height: 50px;
+    font-size: 30px;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+    border-radius: 20px;
+}
+
+.link{
+    text-align: center;
+    font-size: 20px;
+    color: #009;
+    margin-bottom: 30px;
+    display: block;
+}
+
+i.fa-hand-point-down{
+    color: #900;
+    display: block;
+    margin: auto;
+    margin-bottom: 20px;
+    position: relative;
+}
+
+.default{
+   background: #900;
+   color: #FFF 
+}
+
+/* Start Slider */
+
+.slider{
+    margin: 100px auto;
+    background: #333;
+    color: #FFF;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+}
+
+.item{
+    background: url(../media/00.jpg) no-repeat center center;
+    background-size: cover;
+    height: 200px;
+    width: 0;
+}
+
+.info{
+    width: 5%;
+    background: #900;
+    border-right: 1px solid #FFF;
+    border-left: 1px solid #FFF;
+    cursor: pointer;
+}
+
+.accordion{
+    margin: 100px auto;
+    text-align: center;
+    background: #009;
+    overflow: hidden;
+    width: 50%;
+    color :#FFF
+}
+
+.accordion div{
+    height: 50px;
+    line-height: 50px;
+    width: 100%
+}
+
+.accordion div:nth-of-type(even){
+    background: #333
+}
+
+.accordion div.head{
+    cursor: pointer;
+    border-bottom: 1px solid #FFF
+}
+
+.accordion .details{
+    display: none
+}
+
+.parent{
+    margin: 30px auto;
+    /* direction: rl */
+}
+
+.parent .child{
+    width: 20%;
+    height: 150px;
+    background: #900;;
+    margin: 5px;
+    color: #FFF;
+    float: inline-start;
+}
